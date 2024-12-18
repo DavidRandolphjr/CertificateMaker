@@ -20,7 +20,7 @@ class Certify:
         print("printing entries: ")
         for i in entries:
             print(i)
-        agency = "THE RANDOLPH INS AGY INC\n1151 S TROOPER RD\nNORRISTOWN, PA 19403"
+        agency = ""
 
         # Create a new PDF from the template
         doc = fitz.open(self.pdf_template)
